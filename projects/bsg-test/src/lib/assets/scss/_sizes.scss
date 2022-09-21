@@ -1,0 +1,289 @@
+$sizesText: 4, 8, 10, 11, 12, 13, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 60;
+$sizeBase: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 32, 40, 46, 48, 60;
+
+//margin left - right
+.m-lr-8p {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.m-lr-12p {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.m-lr-24p {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.m-lr-32p {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+//margin top - bottom
+.m-tb-8p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.m-tb-16p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.m-tb-24p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.m-tb-32p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+// Padding left - right
+.p-lr-8p {
+    padding: 0 8px;
+}
+.p-lr-16p {
+    padding: 0 16px;
+}
+//padding top - bottom
+.p-tb-8p {
+    padding: 8px 0;
+}
+.p-tb-16p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.p-tb-24p {
+    padding: 24px 0;
+}
+
+.m-tb-8p {
+    margin: 8px 0;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.p-05 {
+    padding: 8px !important;
+}
+.p-1 {
+    padding: 16px !important;
+}
+.p-2 {
+    padding: 32px !important;
+}
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+.pb-0-5r {
+    padding-bottom: 0.5rem;
+}
+.pb-1r {
+    padding-bottom: 1rem;
+}
+.pb-1-5r {
+    padding-bottom: 1.5rem;
+}
+.pb-2r {
+    padding-bottom: 2rem;
+}
+.pb-3r {
+    padding-bottom: 3rem;
+}
+.pt-0-5r {
+    padding-top: 0.5rem;
+}
+.pt-1r {
+    padding-top: 1rem;
+}
+.pt-1-5r {
+    padding-top: 1.5rem;
+}
+.pt-2r {
+    padding-top: 2rem;
+}
+.pt-3r {
+    padding-top: 3rem;
+}
+
+.pt-1px {
+    padding-top: 1px;
+}
+
+.pl-18p {
+    padding-left: 18px;
+}
+
+// Margin
+.m-0 {
+    margin: 0 !important;
+}
+.m-auto {
+    margin: 0 auto;
+}
+.mb-12p {
+    margin-bottom: 12px !important;
+}
+.mb-13p {
+    margin-bottom: 13px !important;
+}
+.mb-24p {
+    margin-bottom: 24px !important;
+}
+.mb-32p {
+    margin-bottom: 32px !important;
+}
+.m-05 {
+    margin: 8px;
+}
+.m-1 {
+    margin: 16px !important;
+}
+.m-2 {
+    margin: 32px;
+}
+.ml-0-5-r {
+    margin-left: 0.5rem;
+}
+.ml-1r {
+    margin-left: 1rem;
+}
+.mr-1r {
+    margin-right: 1rem;
+}
+.mr-1-5r {
+    margin-right: 1.5rem;
+}
+.mr-2r {
+    margin-right: 2rem;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-1r {
+    margin-top: 1rem;
+}
+.mt-1-5r {
+    margin-top: 1.5rem;
+}
+.mt-2r {
+    margin-top: 2rem;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+.mb-0-5r {
+    margin-bottom: 0.5rem;
+}
+.mb-1r {
+    margin-bottom: 1rem;
+}
+.mb-1-5r {
+    margin-bottom: 1.5rem;
+}
+.mb-2r {
+    margin-bottom: 2rem;
+}
+.mb-2-5r {
+    margin-bottom: 2.5rem;
+}
+
+// Width
+.w-20 {
+    width: 20% !important;
+}
+.w-24px {
+    width: 24px !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+.w-50 {
+    width: 50% !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.w-160p {
+    width: 160px !important;
+}
+.w-230p {
+    width: 230px !important;
+}
+.w-290p {
+    width: 290px !important;
+}
+.w-330p {
+    width: 330px !important;
+}
+.w-360p {
+    width: 360px !important;
+}
+.w-380p {
+    width: 380px !important;
+}
+.w-400p {
+    width: 400px !important;
+}
+.w-450p {
+    width: 450px !important;
+}
+.w-470p {
+    width: 470px !important;
+}
+.w-500p {
+    width: 500px !important;
+}
+.w-560p {
+    width: 560px !important;
+}
+.w-586p {
+    width: 586px !important;
+}
+.w-650p {
+    width: 650px !important;
+}
+.w-866p {
+    width:866px !important;
+}
+.w-980p {
+    width: 980px !important;
+}
+.w-1029p {
+    width: 1029px !important;
+}
+.mw-auto {
+    min-width: auto !important;
+}
+.w-700p {
+    width: 700px !important;
+}
+.w-950p {
+    width: 950px !important;
+}
+.max-w-524p {
+    max-width: 524px !important;
+}
+.max-w-700p {
+    max-width: 700px !important;
+}
+.max-w-950p {
+    max-width: 950px !important;
+}
+.max-w-50 {
+    max-width: 50% !important;
+}
+
+//Height
+// .h-100{
+//   height: 100% !important;
+// }
+.m-h-20-p {
+  min-height: 20px;
+}
+.h-144p {
+  height: 144px !important;
+}
+.h-300p {
+  height: 300px !important;
+}

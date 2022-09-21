@@ -1,4 +1,19 @@
 <h1>My Test App</h1>
+
+<p>Para usar la libreria, se debe incluir el siguiente codigo en el angular.json</p>
+<code>
+    <pre>
+{{
+    {
+        "glob": "**/*",
+        "input": "./node_modules/bsg-test/src/assets",
+        "output": "assets"
+    } | json
+ }}
+</pre>
+    
+
+</code>
 <div style="display: flex;">
     <bsg-test-button style="padding: 0 4px;" [btnText]="'btn primary'" [btnColor]="'primary'" (onAction)="actionButton()"></bsg-test-button>
     <bsg-test-button style="padding: 0 4px;" [btnText]="'btn disabled'" [btnColor]="'primary'" [disabled]="true"></bsg-test-button>

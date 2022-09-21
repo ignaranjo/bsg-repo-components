@@ -1,0 +1,57 @@
+// Flex
+.d-none {
+    display: none;
+}
+.d-block {
+    display: block;
+}
+.d-flex {
+    display: flex;
+}
+.jc-center {
+    justify-content: center;
+}
+.jc-between {
+    justify-content: space-between;
+}
+.jc-end {
+    justify-content: flex-end;
+}
+.jc-start {
+    justify-content: flex-start;
+}
+.ai-start {
+    align-items: flex-start;
+}
+.ai-end {
+    align-items: flex-end;
+}
+.ai-center {
+    align-items: center;
+}
+.fd-row {
+    flex-direction: row;
+}
+.fd-column {
+    flex-direction: column;
+}
+.fd-rr {
+    flex-direction: row-reverse;
+}
+
+// Text Align
+.ta-start {
+    text-align: start;
+}
+.ta-justify {
+    text-align: justify;
+}
+.ta-center {
+    text-align: center;
+}
+.ta-left {
+    text-align: left;
+}
+.ta-right {
+    text-align: right;
+}

@@ -1,0 +1,85 @@
+$blue: #0079c8;
+$primaryHover: #0062a2;
+$primaryText: #0079c8;
+$primaryTextHover: #0062a2;
+$primaryOpacity3: #0079c84d;
+$red: #b00020;
+$lightBlack: #4c4c4c;
+$lightBlack3c: #3c3c3c;
+$lightBlack70: #707070;
+$pink: #c60b7e;
+$pinkHover: #980760;
+$white: #ffffff;
+$orange: #fe501d;
+$violet: #6a2ca1;
+$ultraLightGrey: #d8d8d8;
+$lightWhite: #fbfbfb;
+$light-gray: #f1f1f1;
+$borderReminder: #10A3F9;
+$bgReminder: #D9F0FE;
+$danger: #D63C3C;
+$bgDanger: #F9E2E2;
+$warning: #e8a931;
+$success: #38AD65;
+$warningLight: #fef5de;
+
+$colors: (
+  "primary": $blue,
+  "primaryHover": $primaryHover,
+  "primaryOpacity3": $primaryOpacity3,
+  "red": $red,
+  "lightBlack": $lightBlack,
+  "base": $lightBlack,
+  "lightBlack3c": $lightBlack3c,
+  "pink": $pink,
+  "pinkHover": $pinkHover,
+  "white": $white,
+  "orange": $orange,
+  "lightWhite": $lightWhite,
+  "ultraLightGrey": $ultraLightGrey,
+  "light-gray": $light-gray,
+  "dangerBg": $bgDanger,
+  "danger": $danger,
+  "borderReminder": $borderReminder,
+  "bgReminder": $bgReminder,
+  //text
+  "baseText": $lightBlack,
+  "baseTextLight": $lightBlack70,
+  "primaryText": $primaryText,
+  "primaryTextHover": $primaryTextHover,
+  "contrastText": $white,
+  //popular
+  "popularBackground": $orange,
+  "popular": $violet,
+  "popularText": $violet,
+  //nuevo
+  "nuevoBackground": $orange,
+  "nuevo": $orange,
+  "nuevoText": $white,
+  "violet": $violet,
+  //alert
+  "warning": $warning,
+  "warningLight": $warningLight,
+  "success": $success,
+) !default;
+
+$background: (
+  "bg-color": "baseText",
+);
+
+$colorsText: (
+  "ct-base": "baseText",
+  "ct-primary": "primaryText",
+  "ct-contrast": "contrastText",
+  "ct-baseLight": "baseTextLight",
+  "ct-warning": "warning",
+  "ct-danger": "danger",
+  "ct-white": "white",
+  //"ct-nuevo": "nuevoText",
+) !default;
+
+/* $colorsBackground: (
+  "bg-primary": "primary",
+  "bg-primaryHover": "primaryHover",
+  "bg-primaryHover": "primaryHover",
+) !default;  */

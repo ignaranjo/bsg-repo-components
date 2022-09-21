@@ -1,0 +1,56 @@
+.btn, .btn:focus, .btn:active {
+  outline: 0;
+  box-shadow: 0px 3px 6px #00000029;
+  border-style:solid;
+}
+
+a:focus {
+  outline: 0;
+}
+
+.button-blue {
+  background-color: var(--primary);
+  color: var(--white);  
+  border-color: var(--primary);
+}
+.button-primary {
+  background-color: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+.button-primary-outline {
+  background-color: var(--white);
+  color: var(--primary);
+  border: solid 2px var(--primary) !important;
+}
+.button-pink {
+  background-color: var(--pink);
+  color: var(--white) !important;
+  border-color: var(--pink);
+}
+
+//agrega efecto hover al boton solo cuando no esta desabilitado
+.button-blue.cust-button:hover:not([disabled]) {
+  background: var(--primaryHover) !important;
+}
+.button-primary.cust-button:hover:not([disabled]) {
+  background: var(--primaryHover) !important;
+}
+.button-primary-outline.cust-button:hover:not([disabled]) {
+  background: var(--primaryHover) !important;
+  color: var(--white) !important;
+  border: none !important;
+}
+.button-pink.cust-button:hover:not([disabled]) {
+  background: var(--pinkHover) !important;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container-mobile {
+  flex-direction: column-reverse;
+}

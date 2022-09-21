@@ -1,0 +1,13 @@
+<div *ngIf="alertVisible" class="p-16px alert alert-{{type}}" [ngClass]="isXSmall ? 'ai-start' : ' ai-center'">
+    <i *ngIf="showClose" class="bsg bsg-close-button link close-alert" (click)="cerrar()"></i>
+    <div class="d-flex fd-row ai-start">
+        <img [src]="'assets/icon-'+type+'-alert.svg'" class="pr-8px" [ngClass]="{'mt-16px':!isXSmall}" />
+        <!-- <img [src]="'assets/icon-warning-alert.svg'" /> -->
+        <div class="d-flex fd-column jc-center">
+            <h5 class="waring-title ff-semibold ct-base fs-14 mb-2px mt-4px">
+                {{title}}
+            </h5>
+            <div class="ff-medium ct-base fs-12 m-0" [innerHtml]="content"></div>
+        </div>
+    </div>
+</div>

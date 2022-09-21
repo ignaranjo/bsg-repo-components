@@ -1,0 +1,31 @@
+$warning: #e8a931;
+$warningLight: #fef5de;
+.alert {
+    border-radius: 10px;
+    &-warning {
+        background: $warningLight 0% 0% no-repeat padding-box;
+        border: 1px solid $warning;
+        .waring-title{ 
+            color: $warning;
+        }
+        .close-alert {
+            float: right;
+            cursor: pointer;
+            color: $warning;
+           
+        }
+    }
+    &-success {
+        background: rgb(189, 242, 189) 0% 0% no-repeat padding-box;
+        border: 1px solid green;
+        .close-alert {
+            float: right;
+            cursor: pointer;
+            color: green;
+        }
+    }
+}
+
+.ct-disabled{
+    color: #D8D8D8;
+}

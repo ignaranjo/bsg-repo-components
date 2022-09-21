@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <g id="Grupo_2534" data-name="Grupo 2534" transform="translate(0.272 0.747)">
+    <g id="Grupo_2547" data-name="Grupo 2547" transform="translate(-0.153 -0.273)">
+      <circle id="Elipse_147" data-name="Elipse 147" cx="19.5" cy="19.5" r="19.5" transform="translate(-0.119 -0.474)" fill="#38ad65"/>
+      <g id="icon-ok" transform="translate(6.685 6.728)">
+        <path id="icon-ok-2" data-name="icon-ok" d="M0,12.543A12.543,12.543,0,1,1,12.543,25.084,12.558,12.558,0,0,1,0,12.543Zm1.441,0a11.1,11.1,0,1,0,11.1-11.1A11.114,11.114,0,0,0,1.441,12.543Zm8.139,4.74L6.026,13.729a.72.72,0,0,1,1.019-1.017l3.044,3.044L18.041,7.8A.72.72,0,1,1,19.06,8.82L10.6,17.282a.722.722,0,0,1-1.018,0Z" transform="translate(0 0)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

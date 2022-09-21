@@ -1,2 +1,49 @@
 <h1>My Test App</h1>
-<bsg-btn-button></bsg-btn-button>
+<div style="display: flex;">
+    <bsg-test-button style="padding: 0 4px;" [btnText]="'btn primary'" [btnColor]="'primary'" (onAction)="actionButton()"></bsg-test-button>
+    <bsg-test-button style="padding: 0 4px;" [btnText]="'btn disabled'" [btnColor]="'primary'" [disabled]="true"></bsg-test-button>
+    <bsg-test-button style="padding: 0 4px;" [btnText]="'btn primary-outline'" [btnColor]="'primary-outline'"></bsg-test-button>
+    <bsg-test-button style="padding: 0 4px;" [btnText]="'btn pink'" [btnColor]="'pink'"></bsg-test-button>
+</div>
+
+
+<table border="1" style="width: 100%">
+    <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+    </tr>
+    <tr>
+        <td>@Input<br> minWidth: string</td>
+        <td>medida minima que tendra el boton<br>EJ: 230px - 100%</td>
+    </tr>
+    <tr>
+        <td>@Input<br> btnColor: string *</td>
+        <td>Colores disponibles para los botones<br>
+            <ul>
+                <li>primary</li>
+                <li>primary-outline</li>
+                <li>pink</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>@Input<br> disabled: boolean</td>
+        <td>Si le mandamos el parametro disabled en true desactiva el boton. Valor por defecto "false"</td>
+    </tr>
+    <tr>
+        <td>@Input<br> btnText: string *</td>
+        <td>Texto que tendra el boton</td>
+    </tr>
+    <tr>
+        <td>@Output<br> onAction: any</td>
+        <td>Ejecuta accion cuando el button es clickeado</td>
+    </tr>
+</table>
+
+<br>
+<br>
+<br>
+
+
+
+<bsg-test-msg-info [type]="'warning'" [title]="'Alerta'" [content]="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis quos? Nesciunt, quo quas tempore, illum quos iste commodi dignissimos, rem necessitatibus dolorum ipsa error perspiciatis consequatur nostrum culpa aliquam!'" [showClose]="true"></bsg-test-msg-info>

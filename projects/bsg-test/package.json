@@ -1,0 +1,28 @@
+{
+  "name": "bsg-test",
+  "version": "0.1.1",
+  "description": "Se agregan componentes para reutilizar en otros proyectos",
+  "keywords": [
+    "bsg",
+    "bupa",
+    "bupa-seguros"
+  ],
+  "homepage": "https://github.com/ignaranjo/bsg-repo-components#readme",
+  "bugs": {
+    "url": "https://github.com/ignaranjo/bsg-repo-components/issues",
+    "email": "ig.naranjolopez@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ignacio Naranjo",
+    "email": "ig.naranjolopez@gmail.com",
+    "url": "https://github.com/ignaranjo"
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

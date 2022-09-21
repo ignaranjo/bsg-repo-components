@@ -4,6 +4,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "bsg-test": [
+        "dist/bsg-test/bsg-test",
+        "dist/bsg-test"
+      ],
       "button": [
         "dist/button/button",
         "dist/button"

@@ -1,0 +1,8 @@
+<button 
+  class="bsg-btn bsg-cust-button" 
+  [disabled]="disabled" 
+  [ngClass]="'button-' + btnColor"
+  [ngStyle]="{ 'min-width': minWidth }" type="submit"
+  (click)="emitAction()">
+  {{ btnText }}
+</button>

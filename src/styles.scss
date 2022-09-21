@@ -1,1 +1,153 @@
-/* You can add global styles to this file, and also import other style files */
+/* $blue: #0079c8;
+$primaryHover: #0062a2;
+$primaryText: #0079c8;
+$primaryTextHover: #0062a2;
+$primaryOpacity3: #0079c84d;
+$red: #b00020;
+$lightBlack: #4c4c4c;
+$lightBlack3c: #3c3c3c;
+$lightBlack70: #707070;
+$pink: #c60b7e;
+$pinkHover: #980760;
+$white: #ffffff;
+$orange: #fe501d;
+$violet: #6a2ca1;
+$ultraLightGrey: #d8d8d8;
+$lightWhite: #fbfbfb;
+$light-gray: #f1f1f1;
+$borderReminder: #10a3f9;
+$bgReminder: #d9f0fe;
+$danger: #d63c3c;
+$bgDanger: #f9e2e2;
+$warning: #e8a931;
+$success: #38ad65;
+$warningLight: #fef5de;
+
+$colors: (
+    "primary": $blue,
+    "primaryHover": $primaryHover,
+    "primaryOpacity3": $primaryOpacity3,
+    "red": $red,
+    "lightBlack": $lightBlack,
+    "base": $lightBlack,
+    "lightBlack3c": $lightBlack3c,
+    "pink": $pink,
+    "pinkHover": $pinkHover,
+    "white": $white,
+    "orange": $orange,
+    "lightWhite": $lightWhite,
+    "ultraLightGrey": $ultraLightGrey,
+    "light-gray": $light-gray,
+    "dangerBg": $bgDanger,
+    "danger": $danger,
+    "borderReminder": $borderReminder,
+    "bgReminder": $bgReminder,
+    //text
+    "baseText": $lightBlack,
+    "baseTextLight": $lightBlack70,
+    "primaryText": $primaryText,
+    "primaryTextHover": $primaryTextHover,
+    "contrastText": $white,
+    //popular
+    "popularBackground": $orange,
+    "popular": $violet,
+    "popularText": $violet,
+    //nuevo
+    "nuevoBackground": $orange,
+    "nuevo": $orange,
+    "nuevoText": $white,
+    "violet": $violet,
+    //alert
+    "warning": $warning,
+    "warningLight": $warningLight,
+    "success": $success,
+) !default;
+
+
+.cust-button {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    text-transform: initial;
+}
+
+.cust-button:not([disabled]) {
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+button[disabled] {
+    background-color: var(--ultraLightGrey) !important;
+    color: var(--lightWhite) !important;
+    border: none;
+    cursor: not-allowed !important;
+}
+
+.btn,
+.btn:focus,
+.btn:active {
+    outline: 0;
+    box-shadow: 0px 3px 6px #00000029;
+    border: transparent;
+}
+
+a:focus {
+    outline: 0;
+}
+
+.button-blue {
+    background-color: var(--primary);
+    color: var(--white);
+    //border-color: var(--primary);
+    border: none;
+}
+.button-primary {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+    //border:none;
+}
+.button-primary-outline {
+    background-color: var(--white);
+    color: var(--primary);
+    border: solid 2px var(--primary);
+}
+.button-pink {
+    background-color: var(--pink);
+    color: var(--white);
+    border-color: var(--pink);
+}
+
+//agrega efecto hover al boton solo cuando no esta desabilitado
+.button-blue.cust-button:hover:not([disabled]) {
+    background: var(--primaryHover);
+    //border-color: var(--primaryHover);
+    border: none;
+}
+.button-primary.cust-button:hover:not([disabled]) {
+    background: var(--primaryHover);
+    border-color: var(--primaryHover);
+    //border:none;
+}
+.button-primary-outline.cust-button:hover:not([disabled]) {
+    background: var(--primaryHover);
+    color: var(--white);
+    border: none;
+}
+.button-pink.cust-button:hover:not([disabled]) {
+    background: var(--pinkHover);
+    //border-color: var(--pinkHover);
+    border: none;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container-mobile {
+    flex-direction: column-reverse;
+}
+ */

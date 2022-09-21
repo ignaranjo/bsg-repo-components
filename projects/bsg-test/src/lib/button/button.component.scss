@@ -1,0 +1,75 @@
+.bsg-cust-button {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 48px;
+    padding: 0 40px;
+    justify-content: center;
+    text-transform: initial;
+}
+
+.bsg-cust-button:not([disabled]) {
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.bsg-cust-button[disabled] {
+    background-color: #d8d8d8 !important;
+    color: #fbfbfb !important;
+    border-color: #d8d8d8 !important;
+    cursor: not-allowed !important;
+}
+
+.bsg-btn,
+.bsg-btn:focus,
+.bsg-btn:active{
+    outline: 0;
+    box-shadow: 0px 3px 6px #00000029;
+    //border: none;
+    //cursor: pointer;
+}
+
+.button-primary {
+    background-color: #0079c8;
+    color: #ffffff;
+    //border-color: #0079c8;
+    border: solid 2px #0079c8;
+    //border:none;
+}
+.button-primary-outline {
+    background: #ffffff;;
+    color: #0079c8;
+    border: solid 2px #0079c8;
+}
+.button-pink {
+    background-color: #c60b7e;;
+    color: #ffffff;;
+    border: solid 2px #c60b7e;;
+}
+
+//agrega efecto hover al boton solo cuando no esta desabilitado
+.button-primary.bsg-cust-button:hover:not([disabled]) {
+    background: #0062a2;
+    color: #ffffff;
+    border-color: #0062a2;
+}
+.button-primary-outline.bsg-cust-button:hover:not([disabled]) {
+    background: #0062a2;
+    color: #ffffff;
+    border-color: #0062a2;
+}
+.button-pink.bsg-cust-button:hover:not([disabled]) {
+    background: #980760;
+    color: #ffffff;
+    border-color: #980760;
+}
+
+/* .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container-mobile {
+    flex-direction: column-reverse;
+}
+ */
